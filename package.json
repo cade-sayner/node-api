@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "test": "echo \" tests all passed,Well done boy \"",
+    "test": "mocha",
     "start": "node server.js",
     "build": "echo \"no build specified\""
   },
