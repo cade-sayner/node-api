@@ -7,15 +7,19 @@ var app = express();
 var port = 3000;
 
 
-function helloWorld(){
+export function helloWorld(){
     return "hello world";
 }
+
+export function helloWorld2(){
+    return "hello world";
+}
+
 
 https.createServer({
     key: privateKey,
     cert: certificate
 }, app).listen(port);
 
-export default helloWorld;
 
 
